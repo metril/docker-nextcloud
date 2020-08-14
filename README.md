@@ -1,9 +1,9 @@
-## wonderfall/nextcloud
+## metril/nextcloud
 
 
 [![](https://images.microbadger.com/badges/version/wonderfall/nextcloud.svg)](http://microbadger.com/images/wonderfall/nextcloud "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/wonderfall/nextcloud.svg)](http://microbadger.com/images/wonderfall/nextcloud "Get your own image badge on microbadger.com")
 
-**Made for my own use. Irregular updates! This image is eventually intended as a base for your own Docker image. I cannot be responsible if you're using outdated Docker images.**
+**Forked from Wonderfall/docker-nextcloud; Expect intermittent updates**
 
 ### Features
 - Based on Alpine Linux.
@@ -21,8 +21,6 @@
 
 ### Tags
 - **latest** : latest stable version.
-- **18.0** : latest 18.0.x version (stable)
-- **17.0** : latest 17.0.x version (oldstable)
 
 ### Build-time variables
 - **NEXTCLOUD_VERSION** : version of nextcloud
