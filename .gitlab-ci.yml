@@ -1,0 +1,7 @@
+build_image:
+  script:
+    - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $GITLAB_HOST:$GITLAB_PORT
+    - docker build -t $GITLAB_HOST:$GITLAB_PORT/$GITLAB_USER/docker-nextcloud .
+    - docker push $GITLAB_HOST:$GITLAB_PORT/$GITLAB_USER/docker-nextcloud
+  tags:
+    - shell
